@@ -13,9 +13,11 @@
 <img src="https://static.wikia.nocookie.net/leagueoflegends/images/e/e4/Fiddlesticks_Render.png/revision/latest/scale-to-width-down/1000?cb=20200330154746" height="200px">
 
 - [Warwick](https://leagueoflegends.fandom.com/wiki/Warwick)
->Se necesita un monstruo para matar a otro.
+
 
 <img src="https://static.wikia.nocookie.net/leagueoflegends/images/3/3a/Warwick_Render.png/revision/latest?cb=20231116213235" height="200px">
+
+>Se necesita un monstruo para matar a otro.
 
 - [Caitlyn](https://leagueoflegends.fandom.com/wiki/Caitlyn)
 
@@ -39,7 +41,7 @@
 ### Ventajas
 * [X] Divertido
 
-
+<a href="https://www.youtube.com/watch?v=PkSES7B9IZE"><img src="https://i.ytimg.com/vi/PkSES7B9IZE/mqdefault.jpg" width="400px">
 
 ```
 Este es el final
