@@ -32,7 +32,12 @@
 
 <img src="https://static.wikia.nocookie.net/leagueoflegends/images/2/25/Cho%27Gath_Render.png/revision/latest/scale-to-width-down/1000?cb=20210522015921" height="200px">
 
-
+Roles
+1. Top
+2. Mid
+3. Jungle
+4. Bot
+5. Support
 
 ### Desventajas
 * [X] Gastas mucho tiempo
@@ -46,4 +51,4 @@
 ```
 Este es el final
 ```
-
+<img src="LOl.webp">
