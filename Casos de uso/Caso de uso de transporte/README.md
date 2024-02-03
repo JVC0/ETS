@@ -4,11 +4,11 @@
 
 |  Actor | Administrador |
 |---|---|
-| Descripción  | el actor  encargado de   |
+| Descripción  | El actor  encargado de mantener Todo funcionando   |
 | Características  | Muestra la aptitud para administrar usuarios, controlar el acceso a funciones administrativas y la capacidad de definir y gestionar la información almacenada en la aplicación. |
 | Relaciones | Tiene relaciones con el actor usuario durante alta y baja de usuarios |
-| Referencias | _Que casos de uso realiza_ |   
-|  Notas |  _Notas adicionales_ |
+| Referencias | Definir medio de transporte,Definir precio de transporte y alta y baja de usuarios |   
+|  Notas |  Los administradore normalmente son persona que tiene un gran conocimiento tecnicos.  |
 | Autor  | Joseph Vanegas Caicedo |
 |Fecha | 30/01/2024 |
 
