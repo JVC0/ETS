@@ -1,3 +1,7 @@
+<img src="Transporter.png">
+
+## Actor
+
 |  Actor | Administrador |
 |---|---|
 | Descripción  | el actor  encargado de   |
@@ -8,16 +12,17 @@
 | Autor  | Joseph Vanegas Caicedo |
 |Fecha | 30/01/2024 |
 
+## Caso de Uso 
 
 |  Caso de Uso	CU | Definir medio de transport  |
   |---|---|
   | Fuentes  | app transporte.pdf  |
-  | Actor  |  _Actores que participan en el caso de uso_ |
-  | Descripción | _Descripción del caso de uso_  |
-  | Flujo básico | _Descripción paso a paso de la ejecución. (1->2->3.)_ |
-  | Pre-condiciones | _Que debe ocurrir con anterioridad_  |  
-  | Post-condiciones  | _Que debe ocurrir con posterioridad_  |  
-  |  Requerimientos | _Que debe de exister para que el caso de uso se ejecute. Ej: Tarjeta de crédito_  |
-  |  Notas |  _Notas adicionales_ |
-  | Autor  | _Quien desarrolla la especificación del actor_ |
-  |Fecha | _Fecha de la especificación_ |
+  | Actor  |  Administrador |
+  | Descripción | Permite al administrador cambiar el medio de transporte  |
+  | Flujo básico | 1.El administrador incia sesion 2 el administrador se va al apartado de trasnporte 3. El administrador cambia el medio de transporte|
+  | Pre-condiciones | El administrador debe ingreasar en la cuenta de administrador  |  
+  | Post-condiciones  | el nuevo medio de transporte se registra y estara disponible  |  
+  |  Requerimientos | El administrador tiene que tener permisos para editar los medios de transporte  |
+  | Autor  |  Joseph Vanegas Caicedo |
+  |Fecha | 31/01/2024 |
+

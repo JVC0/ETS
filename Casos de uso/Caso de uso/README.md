@@ -1,5 +1,3 @@
-<img src="Biblioteca.png">
-
 |  Actor | XXX (Nombre del Actor) |
 |---|---|
 | Descripción  | _Breve descripción del actor_  |
