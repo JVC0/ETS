@@ -32,42 +32,50 @@
 | Autor  | Joseph Vanegas Caicedo |
 |Fecha | 31/01/2024 |
   
-  |  Caso de Uso	CU | prestar Libro  |
-  |---|---|
-  | Fuentes  | Jpexposito repositorio  |
-  | Actor  |  Usuario,Bibliotecario |
-  | Descripción | _Descripción del caso de uso_  |
-  | Flujo básico | _Descripción paso a paso de la ejecución. (1->2->3.)_ |
-  | Pre-condiciones | _Que debe ocurrir con anterioridad_  |  
-  | Post-condiciones  | _Que debe ocurrir con posterioridad_  |  
-  |  Requerimientos | _Que debe de exister para que el caso de uso se ejecute. Ej: Tarjeta de crédito_  |
-  |  Notas |  _Notas adicionales_ |
+  | Caso de Uso  | Prestar libros  |
+|--------------|-----------------|
+| Fuentes      | Sistema de préstamos  |
+| Actor        | Bibliotecario  |
+| Descripción  | Este caso de uso permite al bibliotecario gestionar los préstamos de libros realizados por los usuarios.  |
+| Flujo básico | 1. El bibliotecario inicia sesión en el sistema. 2. Accede a la sección de gestión de préstamos. 3. Visualiza los préstamos activos y su estado. 4. Registra la devolución de libros. |
+| Pre-condiciones  | El bibliotecario debe haber iniciado sesión y tener los permisos adecuados. |
+| Post-condiciones | El sistema registra la devolución de libros y actualiza el estado de los préstamos.  |
+| Requerimientos   | Conexión a la base de datos del sistema de biblioteca.  |
+| Notas        | Se pueden generar multas por devoluciones tardías. |
   | Autor  | Joseph Vanegas Caicedo |
 |Fecha | 31/01/2024 |
 
-  |  Caso de Uso	CU | XXX  |
-  |---|---|
-  | Fuentes  | _Documento que sustenta el caso de uso_  |
-  | Actor  |  _Actores que participan en el caso de uso_ |
-  | Descripción | _Descripción del caso de uso_  |
-  | Flujo básico | _Descripción paso a paso de la ejecución. (1->2->3.)_ |
-  | Pre-condiciones | _Que debe ocurrir con anterioridad_  |  
-  | Post-condiciones  | _Que debe ocurrir con posterioridad_  |  
-  |  Requerimientos | _Que debe de exister para que el caso de uso se ejecute. Ej: Tarjeta de crédito_  |
-  |  Notas |  _Notas adicionales_ |
+  | Caso de Uso (CU)    | Actualizar Catálogo                                              |
+|----------------------|------------------------------------------------------------------|
+| Fuentes              | Catálogo de la biblioteca, Sistema de inventario                 |
+| Actor                | Bibliotecario                                                    |
+| Descripción          | Este caso de uso permite al bibliotecario gestionar el catálogo de la biblioteca, incluyendo la adición, eliminación o actualización de información sobre los libros. |
+| Flujo básico         | 1. El bibliotecario inicia sesión en el sistema. 2. Accede a la sección de gestión de catálogo. 3. Selecciona la opción de actualizar catálogo. 4. Agrega nuevos libros, actualiza detalles o elimina registros según sea necesario. |
+| Pre-condiciones      | El bibliotecario ha iniciado sesión y tiene los permisos adecuados. |
+| Post-condiciones     | El catálogo se actualiza según las modificaciones realizadas por el bibliotecario. |
+| Requerimientos      | Conexión a la base de datos del sistema de biblioteca.           |
+| Notas                | - Se puede incluir la capacidad de cargar información en formato de archivo para realizar actualizaciones masivas.<br> - El sistema puede generar registros de cambios para mantener un historial del catálogo. |
   | Autor  | Joseph Vanegas Caicedo |
 |Fecha | 31/01/2024 |
 
-  |  Caso de Uso	CU | XXX  |
-  |---|---|
-  | Fuentes  | _Documento que sustenta el caso de uso_  |
-  | Actor  |  _Actores que participan en el caso de uso_ |
-  | Descripción | _Descripción del caso de uso_  |
-  | Flujo básico | _Descripción paso a paso de la ejecución. (1->2->3.)_ |
-  | Pre-condiciones | _Que debe ocurrir con anterioridad_  |  
-  | Post-condiciones  | _Que debe ocurrir con posterioridad_  |  
-  |  Requerimientos | _Que debe de exister para que el caso de uso se ejecute. Ej: Tarjeta de crédito_  |
-  |  Notas |  _Notas adicionales_ |
+  | Caso de Uso         | Devolver Libro                                                    |
+|---------------------|-------------------------------------------------------------------|
+| Fuentes             | Sistema de préstamos, Inventario de la biblioteca                 |
+| Actor               | Usuario                                                           |
+| Descripción         | Permite al usuario devolver un libro prestado por la biblioteca.  |
+| Flujo básico        | 1. El usuario inicia sesión en el sistema.                       |
+|                     | 2. Accede a la sección de "Mis Préstamos" o similar.             |
+|                     | 3. Selecciona el libro a devolver.                               |
+|                     | 4. Confirma la devolución.                                      |
+|                     | 5. El sistema verifica y actualiza el estado del libro.          |
+| Pre-condiciones     | El usuario ha iniciado sesión y tiene libros prestados.           |
+| Post-condiciones    | El libro se registra como devuelto y se actualiza el estado del   |
+|                     | préstamo en el sistema.                                          |
+| Requerimientos      | El libro debe estar en buen estado para la devolución.            |
+| Notas               | - Se pueden generar recordatorios automáticos para la devolución  |
+|                     |   próxima.                                                        |
+|                     | - Puede existir un período de gracia para devoluciones tardías   |
+|                     |   antes de aplicar multas.   
   | Autor  | Joseph Vanegas Caicedo |
 |Fecha | 31/01/2024 |
 
