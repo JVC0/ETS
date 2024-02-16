@@ -5,8 +5,8 @@
 | Relaciones | _Relaciones que tiene con otros actores. Básicamente cuando realiza las mismas acciones que otro actor._  |
 | Referencias | _Que casos de uso realiza_ |   
 |  Notas |  _Notas adicionales_ |
-| Autor  | _Quien desarrolla la especificación del actor_ |
-|Fecha | _Fecha de la especificación_ |
+| Autor  | Joseph Vanegas Caicedo |
+|Fecha | 31/01/2024 |
 
 
 |  Caso de Uso	CU | XXX  |
