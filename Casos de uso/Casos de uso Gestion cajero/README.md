@@ -1,4 +1,4 @@
-<img src="Transporter.png">
+<img src="Gestion_cajero.drawio.png">
 
 |  Actor | XXX (Nombre del Actor) |
 |---|---|
