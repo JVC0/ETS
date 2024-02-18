@@ -38,7 +38,7 @@ Flujo básico|	1. El cliente inicia sesión en el sistema. 2. Accede a la secci�
 Pre-condiciones	|El cliente ha iniciado sesión en el sistema.
 Post-condiciones|	El cliente puede ver y explorar productos en el catálogo.
 Requerimientos|	Se requiere conexión a Internet para acceder al catálogo en línea.
-Notas	Se pueden proporcionar funciones de búsqueda avanzada.
+Notas |	Se pueden proporcionar funciones de búsqueda avanzada.
 | Autor  | Joseph Vanegas Caicedo |
 |Fecha | 30/01/2024 |
 
@@ -50,7 +50,7 @@ Flujo básico|	1. El cliente selecciona productos para comprar. 2. Agrega produc
 Pre-condiciones|	El cliente ha iniciado sesión y ha seleccionado productos para comprar.
 Post-condiciones|	La compra se registra en el sistema, y los productos se reservan para el cliente.
 Requerimientos	|Información de pago y dirección de envío del cliente.
-Notas	|Se pueden proporcionar opciones para aplicar cupones o descuentos.
+Notas	| Se pueden proporcionar opciones para aplicar cupones o descuentos.
 | Autor  | Joseph Vanegas Caicedo |
 |Fecha | 30/01/2024 |
 
@@ -74,7 +74,7 @@ Flujo básico|	1. El administrador inicia sesión en el sistema. 2. Accede a la 
 Pre-condiciones|	El administrador ha iniciado sesión y tiene los permisos adecuados.
 Post-condiciones|	El sistema registra las actualizaciones realizadas por el administrador en el estado de los pedidos.
 Requerimientos|	Conexión a la base de datos del sistema de la tienda en línea.
-Notas|Puede haber diferentes estados de pedido como “En proceso”, “Enviado”, etc.
+Notas | Puede haber diferentes estados de pedido como “En proceso”, “Enviado”, etc.
 | Autor  | Joseph Vanegas Caicedo |
 |Fecha | 30/01/2024 |
 
@@ -87,7 +87,7 @@ Flujo básico|	1. El cliente inicia sesión en el sistema. 2. Accede a la secci�
 Pre-condiciones	|El cliente ha iniciado sesión en el sistema.
 Post-condiciones|	La información de la cuenta del cliente se actualiza según las modificaciones realizadas.
 Requerimientos	|Conexión a Internet para acceder al sistema.
-Notas	|Se pueden agregar capas de seguridad, como la confirmación de cambios por correo electrónico.
+Notas	| Se pueden agregar capas de seguridad, como la confirmación de cambios por correo electrónico.
 | Autor  | Joseph Vanegas Caicedo |
 |Fecha | 30/01/2024 |
 
