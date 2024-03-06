@@ -1,5 +1,5 @@
 # Ejercicio Practico
-
+### Tabla resultante del codigo
 <!DOCTYPE html>
 <html>
 <style>
@@ -47,6 +47,8 @@ table, th, td {
 
 </body>
 </html>
+
+# Codigo de tabla
 
 ```html
 <!DOCTYPE html>
