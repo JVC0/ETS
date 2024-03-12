@@ -47,20 +47,10 @@ table, th, td {
   <tr>
 </tr>
  
+ 
 </table>
-
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<style>
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-</style>
-<body>
-
+<br>
+<br>
 <table style="width:100%">
   <tr>
     <th>Horas</th>
@@ -111,7 +101,7 @@ table, th, td {
     <td></td>
   </tr> 
 </table>
-
 </body>
 </html>
+
 ```
