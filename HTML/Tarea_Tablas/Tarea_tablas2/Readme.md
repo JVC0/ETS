@@ -81,8 +81,7 @@ table, th, td {
   <tr>
     <th>10:30-11:30</th>
     <td style="background-color: pink">E Fisica</td>
-    <td>Valenciano</td>
-    <td rowspan="2" style="background-color: #A8422D">Lengua</td>
+     <td rowspan="2" style="background-color: #A8422D">Lengua</td>
     <td style="background-color: Yellow">Informatica</td>
     <td>Ingles</td>
   </tr>
