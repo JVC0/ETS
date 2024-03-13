@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form>
+        <br>
+        <p>
+            <label for="iname">Nombre:</label>
+            <input type="text" id="iname" name="Nombre">
+        </p>
+        <p>
+            <label for="iapellido">Apellido:</label>
+            <input type="text" id="iapellido" name="Apellido">
+        </p>
+        <p>
+            <label for="iemail">Email:</label>
+            <input type="email" id="iemail" name="email">
+        </p>
+        <p>
+            <label for="icontrasena">Contrasena:</label>
+            <input type="password" id="icontrasena" name="Contrasena">
+        </p>                
+        <p>
+            <input type="submit" value="mandar">
+        </p>
+        <p>
+            <input type="reset" value="BORRAR">
+        </p>
+        <p>
+            <input type="radio" name="color">
+            <label for="red" name="color">Rojo</label>
+            <input type="radio" name="color" checked>
+            <label for="green" name="color">Verde</label>
+            <input type="radio" name="color">
+            <label for="blue" name="color">Azul</label>
+        </p>
+        <p>
+            <input type="checkbox" name="Rojo">
+            <label for="red" name="Rojo">Rojo</label>
+            <input type="checkbox" name="Verde">
+            <label for="green" name="Verde">Verde</label>
+            <input type="checkbox" name="Azul">
+            <label for="blue" name="Azul">Azul</label>
+        </p>
+        <p>
+            <input type="button" value="boton" onclick="alert(Hola)">
+        </p>
+        <p>
+            <input type="color" name="red">
+        </p>
+        <p>
+            <input type="date" name="fecha">
+        </p>
+        <p>
+            <input type="datetime-local" name="fechalocal">
+        </p>
+        <p>
+            <input type="file" name="fichero">
+        </p>
+        <p>
+            <input type="month" name="mes">
+        </p>
+        <p>
+            <input type="number" name="numbero">
+        </p>
+        <p>
+            <input type="range" min="0" max="1" onchange="updateValue(this.value)">
+    <span id="rangeValue">0</span>
+
+    <script>
+        function updateValue(newValue) {
+            document.getElementById("rangeValue").textContent = newValue;
+        }
+    </script>
+        </p>
+    </form>
+</body>
+</html>
