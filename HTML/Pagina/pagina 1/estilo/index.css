@@ -1,0 +1,36 @@
+header {
+    background-color: black;
+    color: white;
+    float: none; 
+    
+}
+header,nav,aside,footer,main{
+    width: 40%;
+    height: 200px;
+}
+nav{
+    background-color: blue;
+    
+}
+
+main{
+    background-color: aquamarine; 
+}
+
+aside{
+    background-color: orange;
+    
+}
+
+footer{
+    background-color: blueviolet;
+    color: white;
+}
+header,nav,aside,footer,main{
+    margin-left: 10%;
+    margin-top: 20%;
+}
+nav,aside,footer,main{
+    float: left;
+}
+
