@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Datos del propietario</legend>
+            <p>
+                <label for="iname">Nombre:</label>
+                <input type="text" id="iname" name="Nombre">
+            </p>
+            <p>
+                <label for="isexo">Sexo:</label>
+                <input type="radio" name="sexo">
+                <label for="red" name="sexo">Homber</label>
+                <input type="radio" name="sexo" checked>
+                <label for="green" name="sexo">Mujer</label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Datos del vehiculo</legend>
+            <p>
+                <label for="iname">Marca/Modelo:</label>
+                <input type="text" id="imodelo" name="modelo">
+            </p>    
+            <p>
+                <label for="iname">Matricula:</label>
+                <input type="text" id="imatricula" name="matricula">
+            </p>
+            <p>
+                <label for="Caracteristicas">Caracteristicas:</label>
+                <select name="cars" id="cars">
+                <option value="Utilitario">Utilitario</option>
+                <option value="Todo Terreno">Todo Terreno</option>
+                <option value="Alta gama">Alta gama</option>
+                </select>
+            </p>
+            <p>
+                <label for="Caracteristicas">Caracteristicas:</label><br>
+                <input type="checkbox" name="Servofrenos">
+                <label for="Servofrenos" name="Servofrenos">Servofrenos</label>
+                <input type="checkbox" name="Elevalunas">
+                <label for="Elevalunas" name="Elevalunas">Elevalunas</label>
+                <input type="checkbox" name="Remolque">
+                <label for="Remolques" name="Remolque">Remolque</label>
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+    
+</body>
+</html>
