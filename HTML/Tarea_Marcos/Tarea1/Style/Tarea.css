@@ -1,0 +1,9 @@
+header iframe{
+    height: 10%;
+    width: 100%;
+}
+main iframe{
+    float: left;
+    width: 99%;
+    height: 725px;
+}
