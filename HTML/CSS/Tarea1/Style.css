@@ -1,0 +1,29 @@
+h1 {
+    background-color: rgb(243, 224, 162);
+    height: 100px;
+    border: dotted;
+    align-content: center;
+    text-align: center;
+}
+h3{
+    background-color: rgb(248, 187, 73);
+}
+h2{
+    margin-top: 50px;
+    color: green;
+    margin-bottom: 50px;
+}
+h4{
+    background-color: gray;
+}
+li{
+    color: royalblue;
+}
+p{
+    background-color: aquamarine;
+    color: orangered;
+}
+b{
+    border: solid;
+    border-color: black;
+}
