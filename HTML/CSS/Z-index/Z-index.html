@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <title>Ejercicio ZIndex</title>
+        <style type="text/css" >
+            .contenedor{
+                width: 600px;
+                height: 700px;
+                background-color: gray;
+                border-width: px;
+                border-style:outset;
+            }
+            .caja{
+                opacity: 80%;
+                position: relative;
+                border-radius: 60%;
+                height: 300px;
+                width: 200px;
+                left: 200px;
+                box-shadow: inset 10px 10px 5px #202020;
+                
+            }
+            .caja:hover{
+                opacity: 93%;
+            }
+            .caja h1{
+                position: absolute;
+                top: 120px;
+                left: 10px;
+                font-family: georgia, serif, cambria;
+                text-shadow:5px 5px 5px rgb(19, 19, 19);
+                text-align: center;
+            }
+            div .caja:nth-child(1){
+                background-color: #FDFD96;
+                top: 10px;
+                left: 80px;
+            }
+            div .caja:nth-child(2){
+                background-color: rgb(255, 105, 97);
+                z-index: 1;
+                bottom: 250px;
+                left: 125px;
+            }
+            div .caja:nth-child(3){
+                background-color: #77DD77;
+                z-index: 2;
+                bottom: 500px;
+                left: 170px;
+            }
+            div .caja:nth-child(4){
+                background-color: #AEC6CF;
+                z-index: 3;
+                bottom: 750px;
+                left: 225px;
+            }
+            .caja:hover ~ .caja:nth-child(n+1){
+                display: none;
+            }
+
+            /*
+                letras: georgia, serif, cambria
+                estilo de letra oblique
+                hay un kerning de letra ( buscar la propiedad en Internet) negativo
+                sombra color #494848 asignarle desplazamiento x y además blur
+
+                contenedor: ancho 600, alto 700, fondo gray;
+
+                los h1 están a 120 de distancia del límite superior de su caja
+                y a 30 del límite izquierdo de su caja
+
+                Las cajas tienen un ancho de 200 y una altura de 300. Un grado de opacidad de 80%
+                Al tocarlas grado de opacidad 93%.
+                la primera caja está a 70 del límite superior del contenedor y otros 80 del límite izquierdo
+                del contenedor. Y así sucesivamente todas, 70 más a la derecha, 70 más abajo
+
+            
+                El selector ~ es útil para éste ejercicio. Puedes ver un ejemplo en:
+                http://www.w3schools.com/cssref/tryit.asp?filename=trycss3_gen_sibling
+            */
+
+        </style>
+    </head>
+    <body>
+        <div class="contenedor">
+            <div class="caja">
+                <h1> _ UNO _ </h1>
+            </div>
+            <div class="caja">
+                <h1> _ DOS _ </h1>
+            </div>
+            <div class="caja">
+                <h1> _ TRES _</h1>
+            </div>
+            <div class="caja">
+                <h1> _ CUATRO _ </h1>
+            </div>
+        </div>            
+    </body>
+</html>
